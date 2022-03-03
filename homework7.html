@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 7</title>
+</head>
+<style>
+        body {background-color: rgb(242,242,242)}
+        
+        h1 {
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: x-large;
+            color:rgb(16,38,32);
+            cursor: text;
+            position: relative;
+            text-align: left;
+        }
+
+        h2 {
+            font-family: sans-serif;
+            font-weight: normal;
+            font-size: larger;
+            color:rgb(16,38,32);
+            cursor: text;
+            position: relative;
+            text-align: left;
+        }
+
+        p {
+            font-family: sans-serif;
+            font-weight: lighter;
+            font-size: medium;
+            color:rgb(16,38,32);
+            cursor: text;
+            position: relative;
+            text-align: left;
+        }
+
+        a {
+            font-family: sans-serif;
+            font-weight: lighter;
+            font-size: medium;
+            color:rgb(16,38,32);
+            cursor: text;
+            position: relative;
+            text-align: left;
+        }
+
+</style>
+<body>
+<h1>Homework 7: FLorida GHG Emissions</h1>
+<p>Below is a map of the greenhouse gas emissions by county in the state of Florida in 2020. I chose this topic because I am an environmental science major interested in monitoring climate change factors and I am travelling to Florida soon. I was also curious to see how high the emissions would be during 2020 due to the pandemic.
+    This is a chloropleth map in which the greenhouse gas emissions (calculated in metric tons of CO2 equivalent) are displayed in each county by a color indicating which bracket the emissions amount falls into. Darker colors indicate higher amounts of CO2 emissions.
+    This map was created using QGIS, joining data obtained from the EPA on GHG emissions (manually cleaned csv) and vector data of Florida counties and zip codes, obtained from an online source (see link below).</p><br>
+
+<img src="./Florida Emissions.png" alt="Florida GHG Emissions" style="width:80%;height:80%;">
+
+<h2>Data used for this project</h2>
+    <a href="./FloridaCounties.geojson"> Vector Data Geojson</a><br>
+    <a href="./GHGemissionsFL.csv"> Cleaned CSV </a><br>
+    <a href="https://ghgdata.epa.gov/ghgp/main.do#/facility/?"> EPA GHG Data</a><br>
+    <a href="https://koordinates.com/layer/97895-florida-zip-code-areas/"> Florida Counties and Zip Codes</a><br>
+
+
+</body>
+</html>
